@@ -1,0 +1,22 @@
+{
+  "name": "onvitri",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "http": "0.0.0",
+    "http-status": "^1.0.1",
+    "indicative": "^3.0.0",
+    "mongoose": "^4.11.10",
+    "monojs": "^1.0.4",
+    "morgan": "^1.8.2"
+  }
+}
