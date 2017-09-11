@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "NODE_ENV=development nodemon"
+    "test": "test"
   },
   "keywords": [],
   "author": "",
@@ -16,7 +16,9 @@
     "http-status": "^1.0.1",
     "indicative": "^3.0.0",
     "mongoose": "^4.11.10",
-    "monojs": "^1.0.4",
+    "monojs": "^1.0.4"
+  },
+  "devDependencies": {
     "morgan": "^1.8.2"
   }
 }
