@@ -1,14 +1,24 @@
-const mongoose = require('mongoose')
+const { Model } = require('monojs')
 
-const Example = mongoose.Schema({
-    name: {
-        type: String,
-        required: true
-    },
-    year: {
-        type: String,
-        required: true
+class ExampleModel extends Model {
+
+    tableName () {
+        return 'Example'
     }
-})
 
-module.exports = mongoose.model('Example', Example)
+    attributes () {
+        return {
+            name: {
+                type: String,
+                required: true
+            },
+            year: {
+                type: String,
+                required: true
+            }
+        }
+    }
+
+}
+
+module.exports = ExampleModel
